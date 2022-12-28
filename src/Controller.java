@@ -5,10 +5,10 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class View {
+public class Controller {
     Frame mainFrame;
     Model logic;
-    public View(Frame f, Model m) {
+    public Controller(Frame f, Model m) {
         mainFrame = f;
         logic = m;
         mainFrame.setVisible(true);
